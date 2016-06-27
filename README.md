@@ -90,36 +90,36 @@ Given is the variable name, variable type, the measurement unit and a brief desc
 
 #### Code Designations
 
-Wilderness Areas:   
-1 -- Rawah Wilderness Area
-2 -- Neota Wilderness Area
-3 -- Comanche Peak Wilderness Area
-4 -- Cache la Poudre Wilderness Area
+    Wilderness Areas:   
+    1 -- Rawah Wilderness Area
+    2 -- Neota Wilderness Area
+    3 -- Comanche Peak Wilderness Area
+    4 -- Cache la Poudre Wilderness Area
 
-Soil Types:     
-1 to 40 : based on the USFS Ecological Landtype Units for this study area.
+    Soil Types:     
+    1 to 40 : based on the USFS Ecological Landtype Units for this study area.
 
-Forest Cover Types: 
-1 -- Spruce/Fir
-2 -- Lodgepole Pine
-3 -- Ponderosa Pine
-4 -- Cottonwood/Willow
-5 -- Aspen
-6 -- Douglas-fir
-7 -- Krummholz
+    Forest Cover Types: 
+    1 -- Spruce/Fir
+    2 -- Lodgepole Pine
+    3 -- Ponderosa Pine
+    4 -- Cottonwood/Willow
+    5 -- Aspen
+    6 -- Douglas-fir
+    7 -- Krummholz
 
 #### Class Distribution
 
-Number of records of Spruce-Fir:    211840 
-Number of records of Lodgepole Pine:    283301 
-Number of records of Ponderosa Pine:     35754 
-Number of records of Cottonwood/Willow:   2747 
-Number of records of Aspen:           9493 
-Number of records of Douglas-fir:    17367 
-Number of records of Krummholz:      20510  
-Number of records of other:              0  
+    Number of records of Spruce-Fir:        211840 
+    Number of records of Lodgepole Pine:    283301 
+    Number of records of Ponderosa Pine:     35754 
+    Number of records of Cottonwood/Willow:   2747 
+    Number of records of Aspen:               9493 
+    Number of records of Douglas-fir:        17367 
+    Number of records of Krummholz:          20510  
+    Number of records of other:                  0  
 
-Total records:              581012
+    Total records:                          581012
 
 Past Usage
 ----------
