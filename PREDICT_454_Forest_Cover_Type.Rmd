@@ -1,0 +1,87 @@
+---
+title: "Team Project: Forest Cover Type"
+author: 
+- "Jessica Ascough"
+- "Heberto del Rio"
+- "Michael Gilbert"
+- "Preethi Krishnan"
+- "Jason May"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: 
+  pdf_document:
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+covtype <- read.csv('covtype.data', header = FALSE)
+```
+
+# Introduction
+- Provide an overview and general statement of the problem.
+- Provide a general discussion of how you have approached the problem and highlight some of
+the interesting results.
+- Remember that the Introduction is an introduction to your paper.
+
+
+# The Modeling Problem
+- Provide the initial technical discussion of the problem with a general description of the data.
+- This section will inform an intelligent reader, i.e. a reader trained in modeling, of all of the technical details needed to better follow your paper. A reader should not have to read twenty pages deep into your paper to get a basic understanding of your problem, hence we have this section in the paper. A technical reader should be able to read this section and then know what to anticipate in the remainder of the paper.
+
+
+# The Data
+- Provide a description of the data.
+- If you have a small number of variables, then a table data dictionary of these variables would be a good choice. If you have a large number of predictor variables, then describe the response variable and the remainder of the data in the most appropriate format.
+- Provide a general description the data and any relevant material that is interesting
+
+
+# Exploratory Data Analysis
+
+
+
+## Traditional EDA
+- Provide highlights of important features in your data.
+- Discuss how these features may affect (or have affected) your modeling choices.
+
+
+## Model Based EDA
+- If relevant, fit a naive model and use it to highlight important features in your data.
+- In general you will want to discuss any transformations that the EDA may have prompted you to make.
+
+
+# Predictive Modeling: Methods and Results
+
+
+
+## The Train/Test Data
+- Provide a brief description of your train/test split or your k-fold cross validation.
+
+
+## Models
+- You should have a suite of final models for comparison. These final models should use different statistical techniques whenever possible, or simply be fundamentally different if the same technique is used.
+- Each model should have its own subsection with the model details. Model details should include the actual model and a GOF analysis on the training data set.
+- Model results should be presented in a table. Model results should not be cut-and-pasted R output.
+
+
+# Comparison of Results
+- This project is a project about predictive modeling. We should evaluate each predictive model by a metric for predictive accuracy both in-sample and out-of-sample. This comparison should be easy for the reader to understand. It probably should include both plots and tables.
+- If you try to perform any model averaging or committee machines, then the discussion of the averaging technique and the results should be its own subsection in this section. If you use a technique like random forest, it should simply be treated as a standard method (i.e. presented in Section 5).
+
+
+# Conclusions
+- Conclude your paper. Reiterate your problem and highlight your results. - How would you characterize the overall quality of your results?
+- Do you have any recommendations for approaching the problem in a different manner or with different techniques? Would you recommend any particular avenues for future research?
+- A lot of times a good conclusion reads like a good abstract.
+
+
+# Bibliography
+- References can be constructed using any valid style format. However, references can be cited in your paper using a name-year citing or by using the number scheme, e.g. Bhatti [1].
+- One type of citing used in the program is the APA style format. However, it can be difficult to use with some types of sources, hence we will allow the number format for convenience.
+- When citing references consider using: Bhatti [1] for a single author, Bhatti and Lucas [2] for two authors, and Bhatti et. al. [3] for three or more authors.
+
+
+# Appendices
+- Appendices are where we put useful, but not primary information. Useful but not primary information could be summary statistics, auxiliary plots, or any additional or auxiliary details and discussion.
+
+
